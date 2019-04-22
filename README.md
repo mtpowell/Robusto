@@ -3,4 +3,4 @@ Advanced Hotkey Targetting System For Space Station 13
 
 ![Robusto](https://i.imgur.com/ugZ4wqn.png)
 
-//will update this later
+Requires this AutoIT dependency https://www.autoitscript.com/forum/topic/121609-notifybox-udf/, download, drop it in your includes folder.
