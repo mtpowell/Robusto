@@ -102,8 +102,10 @@ Func Main()
 			MouseMove($t_Areas[24], $t_Areas[25], 0)
 		Case $t_HotKeys[13]
 			MouseMove($t_Areas[26], $t_Areas[27], 0)
+			sleep(500) ; need to add a delay because bite/kick won't register the click if any other key is held down
 		Case $t_HotKeys[14]
 			MouseMove($t_Areas[28], $t_Areas[29], 0)
+			sleep(500)
 	EndSwitch
 	sleep(1)
 	MouseClick("primary")
